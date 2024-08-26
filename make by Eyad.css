@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: rgb(148, 145, 145);
+}
+#na {
+  background-color: rgb(3, 24, 44);
+  color: white;
+  margin: 1px;
+  padding: 15px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgb(97, 8, 8);
+  color: black;
+}
+nav a {
+  display: flex;
+  flex-grow: 1;
+  margin: 1px;
+  padding: 10px;
+  color: white;
+  font-family: serif;
+  font-size: larger;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+nav a:hover {
+  background-color: darkblue;
+  transition: color 0.7s;
+  transform: background-color 0.7s;
+}
+@media (max-width: 300px) {
+  nav {
+    flex-direction: column;
+    height: 100px;
+    padding: 25px;
+  }
+}
+#h1 {
+  color: white;
+  float: left;
+}
+#a1 {
+  font-size: 53px;
+}
+main {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: left;
+}
